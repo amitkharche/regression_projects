@@ -3,6 +3,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 from prophet.plot import plot_plotly
+import plotly.graph_objects as go
+
 
 st.set_page_config(page_title="🛒 Sales Forecasting (Prophet)", layout="centered")
 st.title("📈 Sales Forecasting with Prophet")

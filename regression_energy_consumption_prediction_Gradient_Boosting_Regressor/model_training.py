@@ -1,5 +1,6 @@
 
 import pandas as pd
+import numpy as np
 import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
@@ -31,9 +32,13 @@ pipeline.fit(X_train, y_train)
 # Evaluate
 y_pred = pipeline.predict(X_test)
 print(f"MAE: {mean_absolute_error(y_test, y_pred):.2f}")
-print(f"RMSE: {mean_squared_error(y_test, y_pred, squared=False):.2f}")
+rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+print(f"RMSE: {rmse:.2f}")
+#print(f"RMSE: {mean_squared_error(y_test, y_pred, squared=False):.2f}")
 print(f"R²: {r2_score(y_test, y_pred):.2f}")
 
 # Save model
 joblib.dump(pipeline, "energy_model.pkl")
 joblib.dump(X.columns.tolist(), "energy_features.pkl")
+print("Model training complete and saved as energy_model.pkl")
+

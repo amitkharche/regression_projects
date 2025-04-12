@@ -45,3 +45,9 @@ grid_search.fit(X_train, y_train)
 joblib.dump(grid_search.best_estimator_, "regression_model.pkl")
 joblib.dump(X.columns.tolist(), "model_features.pkl")
 print("✅ Model training completed and saved!")
+
+
+
+
+
+

@@ -151,8 +151,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## 🙋‍♂️ Author
 
 **Amit Kharche**  
-📬 Connect on [LinkedIn](https://www.linkedin.com/in/your-link/)  
-📧 Email: amit@example.com
+📬 Connect on [LinkedIn](http://www.linkedin.com/in/amit-kharche)]  
 
 ---
 

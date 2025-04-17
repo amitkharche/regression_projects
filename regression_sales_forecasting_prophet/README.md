@@ -140,9 +140,3 @@ Feel free to suggest improvements or open issues. Contributions are always welco
 
 ---
 
-## 📸 Screenshots (Optional)
-
-> Add a screenshot of your Streamlit app or trend decomposition plot here.
-
-- `model_training.py`: Trains Prophet model
-- `app.py`: Streamlit app to visualize forecast

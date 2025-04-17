@@ -78,7 +78,7 @@ sales_forecasting_project/
 
 ```bash
 git clone https://github.com/amitkharche/regression_projects.git
-cd regression_projects/regression_sales_forecasting_Store_Promo_RandomForest
+cd regression_projects/regression_sales_forecasting_project_random_forest
 ```
 
 ### 2️⃣ Install Dependencies

@@ -55,8 +55,8 @@ multi_model_sales_forecasting/
 ### 1️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/multi_model_sales_forecasting.git
-cd multi_model_sales_forecasting
+git clone https://github.com/amitkharche/regression_projects.git
+cd regression_projects/regression_sales_forecasting_multi_model_RandomForest_XGBoost_CatBoost
 ```
 
 ### 2️⃣ Install Dependencies

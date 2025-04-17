@@ -122,13 +122,10 @@ These metrics are printed in the console and shown on the Streamlit dashboard.
 - **File**: `sales_data.csv`
 - **Type**: Simulated retail sales dataset
 - **Columns include**:
+  - Store
   - Date
-  - Store ID
-  - Region
-  - Weekly Sales
-  - Promotion Flag
-  - Store Type
-  - Holiday Indicator
+  - Promo
+  - Sales
 
 > **Note:** This dataset is synthetically generated and does not represent any real business data.
 
